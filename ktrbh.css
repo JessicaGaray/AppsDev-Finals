@@ -1,0 +1,238 @@
+html {
+  background-color: #384047;
+  background-size: 100%;
+  height: 80vh;
+  font-family: sans-serif;
+  color: #384047;
+}
+body{
+  margin: 0;
+}
+
+.bg{
+    height: 100vh;
+    background-image: url("workplace1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #e3dede;
+  z-index: 4;
+  margin: 20px;
+}
+
+a:hover{
+  text-shadow: 1px 1px #adadad;
+}
+
+a h3 .addlink {
+  color: #384047;
+}
+
+a:hover .addlink{
+  color: #87B6A7;
+}
+
+small {
+  color: #384047;
+  opacity: 0.8;
+}
+.top{
+  background-color: rgba(56, 64, 71, 0.8);
+  height: 100%;
+  margin: 70px;
+  z-index: 1;
+  border-radius: 5px;
+  position: relative;
+}
+
+form{
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  transform: translateX(-50%) translateY(-55%);
+  border-radius: 5px;
+  margin: 25px 85px;
+  padding: 30px 25px 15px;
+  color: red;
+  flex-direction: row;
+}
+
+.empdisplay{
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  transform: translateX(-50%) translateY(-55%);
+  border-radius: 5px;
+  margin: 50px 85px;
+  padding: 15px 25px 15px;
+}
+
+.add{
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  transform: translateX(-50%) translateY(-55%);
+  border-radius: 5px;
+  margin: 100px 85px;
+  padding: 15px 25px 15px;
+}
+
+.edit{
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  transform: translateX(-50%) translateY(-55%);
+  border-radius: 5px;
+  margin: 30px 85px;
+  padding: 15px 25px 15px;
+}
+
+ h1{
+  font-size: 60px;
+  color: #87B6A7;
+  margin: 0;
+  text-shadow: 2px 2px #384047;
+}
+
+h2{
+  font-size: 40px;
+  color: #87B6A7;
+  margin: 0;
+}
+
+h3, h5, i{
+  color: #384047;
+  padding: 0;
+  margin: 0;
+}
+ h4{
+   border-bottom: solid 2px #b0adad;
+ }
+
+ big{
+   color: white;
+   font-size: 10px;
+   margin-top: 610px;
+   margin-left: 460px;
+   padding: 0;
+   z-index: 4;
+   opacity: 0.5;
+   position: absolute;
+ }
+
+ .details {
+  margin-left: 8%;
+  margin-top: 25px;
+  opacity: 0.8;
+  color: white;
+  flex-direction: row;
+}
+
+form input[type="text"], input[type="password"], input[type="email"],
+ input[type="number"]{
+  border: 1px solid #dbdbdb;
+  font-size: 1em;
+  padding-left: .6em;
+  border-radius: 2px;
+  width: 300px;
+  height: 50px;
+  margin: 5px 35px 5px;
+}
+.add input[type="text"], .add input[type="password"],
+ .add input[type="number"], .edit input[type="text"],
+ .edit input[type="password"],.edit input[type="number"]{
+  border: 1px solid #dbdbdb;
+  font-size: 1em;
+  padding-left: .6em;
+  border-radius: 2px;
+  width: 300px;
+  height: 30px;
+  margin: 5px 35px 5px;
+}
+form input[type="text"]:focus {
+  background: #fff;
+}
+form span {
+  display: block;
+  background: #F9A5A5;
+  padding: 2px 5px;
+  color: #666;
+}
+
+form input[type="submit"], input[type="reset"]{
+  background: #384047;
+  box-shadow: 2px 2px 0 #b7b6b6;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5em;
+  line-height: 1.6em;
+  outline: none;
+  padding: 3px 20px 3px 20px;
+  margin-top: 10px;
+}
+
+form input[type="button"]{
+  background: #384047;
+  box-shadow: 2px 2px 0 #b7b6b6;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.5em;
+  line-height: 1.6em;
+  outline: none;
+  padding: 2px 15px 2px 15px;
+  margin: 10px 35px;
+}
+
+form input[type="button"]:hover, form input[type="reset"]:hover,
+form input[type="submit"]:hover{
+  background: #87B6A7;
+  box-shadow: 2px 2px 0 #b7b6b6;
+}
+
+form textarea{
+  width: 300px;
+  height: 150px;
+  border: 1px solid #dbdbdb;
+  padding-left: .6em;
+  border-radius: 2px;
+  margin: 5px 35px 5px;
+  font-size: 0.9em;
+}
+
+.empdeet td {
+  padding: 10px 23px;
+}
+
+.empdeet td:nth-child(even){
+  background-color: rgba(135, 182, 167, 0.5);
+}
+
+td, th {
+    text-align: left;
+    padding: 10px;
+}
+
+.empdeet td {
+  margin: 20px;
+}
+​
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.adminTab tr:nth-child(even){
+  background-color: rgba(135, 182, 167, 0.5);
+}
